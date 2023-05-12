@@ -12,3 +12,11 @@ Repository for master's thesis by Tobias Paulsen (tobiasrp@uio.no)
 
 ## Unity:
 Unity package for modules and scripts: ``Modbods.unitypackage``
+
+## Videos:
+- Top elites from flat: https://youtu.be/HT6AngmX8io
+- Top elites from stairs: https://youtu.be/dxFKTTmn03s
+- RNP: https://youtu.be/pHXu9WC8Ixk
+- SNP: https://youtu.be/0R6eBr7LWPM
+- RP: https://youtu.be/_ot-PPyfe3E
+- MEAT: https://youtu.be/07d5c8e5MaU
