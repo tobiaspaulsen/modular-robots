@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "name": "root",
+      "parent": "aaa",
+      "connection_site": "0",
+      "type": "Root",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    },
+    {
+      "name": "a",
+      "parent": "root",
+      "connection_site": "2",
+      "type": "BodyJoint4",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    },
+    {
+      "name": "bodyJoint",
+      "parent": "a",
+      "connection_site": "2",
+      "type": "BodyJoint1",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    },
+    {
+      "name": "rootLimb1",
+      "parent": "root",
+      "connection_site": "0",
+      "type": "LimbJoint2",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    },
+    {
+      "name": "outerRootLimb1",
+      "parent": "rootLimb1",
+      "connection_site": "2",
+      "type": "LimbJoint1",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    },
+    {
+      "name": "rootLimb2",
+      "parent": "root",
+      "connection_site": "1",
+      "type": "LimbJoint2",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    },
+    {
+      "name": "outerRootLimb2",
+      "parent": "rootLimb2",
+      "connection_site": "2",
+      "type": "LimbJoint1",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    },
+    {
+      "name": "bodyLimb1",
+      "parent": "bodyJoint",
+      "connection_site": "0",
+      "type": "LimbJoint2",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    },
+    {
+      "name": "outerBodyLimb1",
+      "parent": "bodyLimb1",
+      "connection_site": "2",
+      "type": "LimbJoint1",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    },
+    {
+      "name": "bodyLimb2",
+      "parent": "bodyJoint",
+      "connection_site": "1",
+      "type": "LimbJoint2",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    },
+    {
+      "name": "outerBodyLimb2",
+      "parent": "bodyLimb2",
+      "connection_site": "2",
+      "type": "LimbJoint1",
+      "angle": 0,
+      "rgb": [0.0, 0.3, 1.0]
+    }
+  ]
+}
