@@ -9,3 +9,6 @@ Repository for master's thesis by Tobias Paulsen (tobiasrp@uio.no)
 - ``increasing_tournament.py``: Same as age_fitness_pareto with a gradually increasing tournament size
 - ``only_controller.py``: Base EA, only evolves the control system of a modular robot
 - ``tournament_remove.py``: Algorithm used in the thesis. Tournament-remove based on either age and fitness or just fitness.
+
+## Unity:
+Unity package for modules and scripts: ``Modbods.unitypackage``
